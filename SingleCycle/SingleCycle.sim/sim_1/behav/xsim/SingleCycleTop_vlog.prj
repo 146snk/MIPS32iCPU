@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../source_files/alu1.v" \
+"../../../../../source_files/bit32_add_sub.v" \
+"../../../../../source_files/bit8_look_ahead_carry_adder.v" \
+"../../../../../source_files/bit_32_mixed_adder_8.v" \
+"../../../../../source_files/las_alu.v" \
+"../../../../../source_files/mips32i_ctrl.v" \
+"../../../../../source_files/mips32i_decoder.v" \
+"../../../../../source_files/mips32i_ext_immediate.v" \
+"../../../../../source_files/reg32.v" \
+"../../../../../source_files/shifter.v" \
+"../../../../../source_files/mips32i_SingleCycle.v" \
+"../../../../../source_files/mips32i_PC_update.v" \
+"../../../../../testbench/SingleCycleTop.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
