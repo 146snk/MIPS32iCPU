@@ -1,0 +1,18 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+D:/MIPS32iCPU/SingleCycle/SingleCycle.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+D:/MIPS32iCPU/source_files/alu1.v,1734683341,verilog,,D:/MIPS32iCPU/source_files/bit32_add_sub.v,,alu1,,,,,,,,
+D:/MIPS32iCPU/source_files/bit32_add_sub.v,1734424047,verilog,,D:/MIPS32iCPU/source_files/bit8_look_ahead_carry_adder.v,,bit32_add_sub,,,,,,,,
+D:/MIPS32iCPU/source_files/bit8_look_ahead_carry_adder.v,1733843798,verilog,,D:/MIPS32iCPU/source_files/bit_32_mixed_adder_8.v,,bit8_look_ahead_carry_adder,,,,,,,,
+D:/MIPS32iCPU/source_files/bit_32_mixed_adder_8.v,1734424034,verilog,,D:/MIPS32iCPU/source_files/las_alu.v,,bit_32_mixed_adder_8,,,,,,,,
+D:/MIPS32iCPU/source_files/las_alu.v,1734424058,verilog,,D:/MIPS32iCPU/source_files/mips32i_ctrl.v,,las_alu,,,,,,,,
+D:/MIPS32iCPU/source_files/mips32i_PC_update.v,1734969134,verilog,,D:/MIPS32iCPU/testbench/SingleCycleTop.v,,mips32i_PC_update,,,,,,,,
+D:/MIPS32iCPU/source_files/mips32i_SingleCycle.v,1734969582,verilog,,D:/MIPS32iCPU/source_files/mips32i_PC_update.v,,mips32i_SingleCycle,,,,,,,,
+D:/MIPS32iCPU/source_files/mips32i_ctrl.v,1734940399,verilog,,D:/MIPS32iCPU/source_files/mips32i_decoder.v,,mips32i_ctrl,,,,,,,,
+D:/MIPS32iCPU/source_files/mips32i_decoder.v,1733844743,verilog,,D:/MIPS32iCPU/source_files/mips32i_ext_immediate.v,,mips32i_decoder,,,,,,,,
+D:/MIPS32iCPU/source_files/mips32i_ext_immediate.v,1734408514,verilog,,D:/MIPS32iCPU/source_files/reg32.v,,mips32i_ext_immediate,,,,,,,,
+D:/MIPS32iCPU/source_files/reg32.v,1733844467,verilog,,D:/MIPS32iCPU/source_files/shifter.v,,reg32,,,,,,,,
+D:/MIPS32iCPU/source_files/shifter.v,1734273647,verilog,,D:/MIPS32iCPU/source_files/mips32i_SingleCycle.v,,shifter,,,,,,,,
+D:/MIPS32iCPU/testbench/SingleCycleTop.v,1734969606,verilog,,,,SingleCycleTop,,,,,,,,
