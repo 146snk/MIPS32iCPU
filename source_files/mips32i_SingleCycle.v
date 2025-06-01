@@ -27,7 +27,7 @@ module mips32i_SingleCycle(
     );
 	// PC
 	wire [31:0] next_PC;
-	always @(posedge clk | rst) begin
+	always @(posedge clk or posedge rst) begin
 		if(rst) PC_out <= 0;
 		else PC_out <= next_PC;
 	end
@@ -139,6 +139,4 @@ module mips32i_SingleCycle(
 			default: Wt_data <= 32'd0;
 		endcase
 	end
-	
-	
 endmodule

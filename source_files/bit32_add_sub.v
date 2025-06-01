@@ -26,11 +26,11 @@ module bit32_add_sub(
     wire [31:0] B_adder;
     wire [31:0] ctrl;
     genvar i;
-    generate
-        for(i=0;i<32;i=i+1)begin
-            assign ctrl[i] = ctrl_in;
-        end
-    endgenerate
+	generate
+		for(i=0;i<32;i=i+1)begin: gen_for_0
+			assign ctrl[i] = ctrl_in;
+		end
+	endgenerate
     assign B_adder = B_in ^ ctrl;
     wire C_out;
     bit_32_mixed_adder_8 _adder_(.A_in(A_in), .B_in(B_adder), .C_in(ctrl_in),

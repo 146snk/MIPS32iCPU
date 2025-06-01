@@ -28,7 +28,7 @@ module bit_32_mixed_adder_8(
 	
     genvar i;
     generate
-        for(i=0;i<32;i=i+8)begin
+        for(i=0;i<32;i=i+8)begin: gen_for_0
             bit8_look_ahead_carry_adder _adder_(.A_in(A_in[i+7:i]), .B_in(B_in[i+7:i]), .C_in(carry[i]), .AND_out(AND_out[i+7:i]), 
 				.OR_out(OR_out[i+7:i]), .XOR_out(XOR_out[i+7:i]), .S_out(S_out[i+7:i]), .C_out(carry[i+8]));
         end
